@@ -1,0 +1,150 @@
+body {
+    font-family: "open";
+    font-size: 14px;
+    background: #f2f2f2;
+}
+header{
+background-image:url(assets/texture-header.jpg);
+    height: 150px;
+    width: auto;
+}
+
+.corps { 
+    background: grey;
+    max-width: 810px;
+    text-align: center
+}
+header > h1 {
+    text-align: center;
+    padding: 20;
+    font-size  : 40px;
+    text-align: center;
+    font-family: "nasa";
+    color: #27d1ff;
+    vertical-align: middle;
+}
+div#lien {
+display: inline-block right;
+background-color: #2e2f30;
+padding-right: 50px;
+padding-left: 1185;
+margin: 0px;
+vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "open";
+    font-size: 14px;
+    }
+a:hover {
+    color: #17c1ff;
+}
+a:active {
+    text-decoration: none;
+    color: #17c1ff;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "open";
+    src: url("assets/Open_Sans/OpenSans-Regular.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "nasa";
+    src: url("assets/nasalization-rg.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}   
+div#logo {
+text-align: center;
+}
+span>img {
+    width: 40%;
+}
+h2,p {
+    text-align: center;
+}
+div#azerty{
+    max-width: 750px;
+    padding: 10px;
+}
+h2 {
+    text-transform: capitalize solid;
+    text-shadow: 1.5px 1.5px 0px tomato; 
+    color: #e6e6e6;
+    background: grey;
+}
+.corps {
+    margin-left: 300px;
+    align-items: center;
+    text-align: center;
+}
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    height: 480px;
+    text-align: center;
+    overflow: auto;
+  }
+.T1 {
+margin-left: 200;
+padding: 10px;
+}
+.T2 {
+    padding: 10px;
+}
+h4 {
+    background-color: teal;
+}
+h5 {
+height: 30px;
+margin: auto;
+width: 250px;
+padding: 8px;
+text-align: left;
+border: 2mm #e6e6e6 solid;
+}
+h5:hover{
+    border: 2mm blue solid;
+}
+h6{
+    padding: 8px;
+    background-color: cornflowerblue solid;
+    margin: auto;
+    max-width: 810px;
+    padding: 11px;
+    text-align: center;
+    width: 100px; 
+    background: #17c1ff; 
+    color: white; 
+}
+div#contact{
+    text-transform: capitalize solid;
+    text-shadow: 1.5px 1.5px 0px tomato; 
+    color: #e6e6e6;
+    margin: center;
+    text-align: center;
+    overflow: auto;
+    padding: 10px;
+    background: #2e2f30;
+}
+
+.oui {
+    padding: 10px;
+    border: 5mm #e6e6e6 solid;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.question:hover {
+    text-decoration: none;
+    color: #17c1ff;
+    font-weight: bold;
+}
